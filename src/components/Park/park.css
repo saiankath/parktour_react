@@ -1,0 +1,53 @@
+
+.park {
+    background: grey ;
+    margin: 2rem 0;
+}
+.park img  {
+    width: 100%;
+    display: block;
+    
+}
+    
+.container {
+    position: relative;
+}
+.closeBtn {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: green;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    opacity: 0;
+    
+}
+.container:hover .closeBtn{
+    color: red;
+    opacity: 1;
+}
+.tour-info h3 {
+        text-transform: uppercase;
+    
+}
+.tour-info h4 {
+    text-transform: capitalize;
+    margin: 0.2rem 0 0.6rem 0;
+}
+.tour-info h5 {
+    text-transform: capitalize;
+}
+.tour-info h5 span {
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: green;
+    cursor: pointer;
+}
+@media (min-width:750px) {
+    .park {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-column-gap: 0.5rem;
+    }
+}

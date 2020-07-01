@@ -1,0 +1,34 @@
+
+.navbar {
+    background: black;
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+.navbar p {
+    color: green;
+    font-style: italic;
+    font-size: 1.5rem;
+
+}
+.navlists {
+   list-style-type: none;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   text-align: center;
+}
+.navlist {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: grey;
+    text-transform: capitalize;
+    transform: all 0.3s linear;
+}
+.navlist a:hover {
+   color: green;
+}
+.active {
+    color: green;
+}
+
